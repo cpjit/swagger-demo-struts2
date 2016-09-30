@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.devMode" value="true" />
+
+	<package name="api" namespace="/api" extends="struts-default" >
+		<action name="*" class="com.cpj.swagger.support.struts2.ApiAction" method="{0}">
+		</action>
+	</package>
+</struts>
