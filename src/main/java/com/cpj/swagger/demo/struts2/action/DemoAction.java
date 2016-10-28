@@ -31,7 +31,7 @@ public class DemoAction extends ActionSupport {
 	@API(value="demoAction!login", summary="示例1", parameters={
 			@Param(name="username", description="用户名", type="string"),
 			@Param(name="password", description="密码", type="string", format="password"),
-			@Param(name="image" , description="图片", type="file", format="binary")
+			@Param(name="image" , description="图片", type="file")
 	})
 	public void login() throws Exception {
 		HttpServletResponse response = ServletActionContext.getResponse();

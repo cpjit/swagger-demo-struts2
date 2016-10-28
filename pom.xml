@@ -7,23 +7,16 @@
 	<version>1.0.0</version>
 	<name>swagger-demo-struts2 Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	<repositories>
-		<repository>
-			<id>cpj-repository</id>
-			<name>cpj-repository</name>
-			<url>https://raw.githubusercontent.com/sweetit/repository/master/</url>
-		</repository>
-		<repository>
-			<id>cpj-swagger</id>
-			<name>cpj-swagger</name>
-			<url>https://raw.githubusercontent.com/sweetit/swagger/master/</url>
-		</repository>
-	</repositories>
 	<dependencies>
 		<dependency>
-			<groupId>com.cpj</groupId>
+			<groupId>com.github.3cpj</groupId>
+			<artifactId>cpj-common</artifactId>
+			<version>1.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.3cpj</groupId>
 			<artifactId>cpj-swagger</artifactId>
-			<version>1.2.0</version>
+			<version>1.2.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.struts.xwork</groupId>
