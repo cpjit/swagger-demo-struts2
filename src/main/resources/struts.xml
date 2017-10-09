@@ -9,7 +9,7 @@
     <constant name="struts.devMode" value="true" />
 
 	<package name="api" namespace="/api" extends="struts-default" >
-		<action name="*" class="com.cpj.swagger.support.struts2.ApiAction" method="{0}">
+		<action name="*" class="com.cpjit.swagger4j.support.struts2.ApiAction" method="{0}">
 		</action>
 	</package>
 </struts>

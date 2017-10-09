@@ -3,21 +3,21 @@
  * Copyright (c) 2011, 2016 CPJ and/or its affiliates. All rights reserved.
  * 
  */
-package com.cpj.swagger.demo.struts2.action;
+package com.cpjit.swagger4j.demo.struts2.action;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletResponse;
 
+import com.cpjit.swagger4j.annotation.API;
+import com.cpjit.swagger4j.annotation.APIs;
+import com.cpjit.swagger4j.annotation.Param;
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;
 
 import com.alibaba.fastjson.JSONWriter;
-import com.cpj.swagger.annotation.API;
-import com.cpj.swagger.annotation.APIs;
-import com.cpj.swagger.annotation.Param;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
